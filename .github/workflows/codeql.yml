@@ -53,7 +53,8 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        config-file: github.com/ak01sito/codeQLCustomConfig/typescript_OWASPTop10.qls@main
+        # Syntax for an external file: OWNER/REPOSITORY/FILENAME@BRANCH
+        config-file: ak01sito/codeQLCustomConfig/typescript_OWASPTop10.qls@main
 
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
