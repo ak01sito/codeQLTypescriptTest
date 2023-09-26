@@ -54,6 +54,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         # Syntax for an external file: OWNER/REPOSITORY/FILENAME@BRANCH
+        # found on https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review
         config-file: ak01sito/codeQLCustomConfig/typescript_OWASPTop10.qls@main
 
 
