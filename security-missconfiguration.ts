@@ -2,6 +2,7 @@ import * as express from 'express';
 const app = express();
 
 const hardcodedPassword = "ad*_do38FJEDOF)30>FDOHE3458"; // Simulated hardcoded password
+//yep
 
 app.get('/search', (req, res) => {
   const searchTerm = req.query.q; // Simulating user input
